@@ -1,0 +1,26 @@
+body {
+ display: flex-wrap;
+ flex-direction: row;
+ height: 100vh;
+}
+
+p {
+ font-size: 30vw;
+ margin: auto;
+ cursor:pointer;
+}
+
+input {
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ -ms-transition: all 1s ease;
+ transition: all 1s ease;
+ width: 40%;
+ -webkit-filter: grayscale(100%);
+ object-fit:contain;
+}
+
+input:hover {
+ -webkit-filter: grayscale(0%);
+}
